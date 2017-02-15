@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+body{font: 14px/1.5 "Microsoft YaHei",tahoma,arial,\5b8b\4f53;background:#ebebeb;}
+.lf{float:left;}
+.rf{float:right;}
+.f-hide{display:none;}
+.f-fixed:after{content:'\200b';display:block;height:0;clear:both;}
+.f-fixed{*zoom:1;}
+
+.announcement{max-width:1920px;margin:0 auto;}
+.announcement .ann-header{width:100%;margin:0 auto;background:#fff;height:80px;}
+.announcement .ann-header .inner{width:1000px;margin:0 auto;}
+.announcement .ann-header .inner .lf-logo{cursor:pointer;}
+.announcement .ann-header .inner .lf-logo .border{height:53px;display:inline-block;border-left:2px solid #2CB4FF;margin:0 5px -3px;}
+.announcement .ann-header .inner .notice-logo{margin-top:12.5px;display:inline-block;}
+.announcement .ann-header .inner .logo-text{color:#2BC2EE;display:inline-block;font-size:24px;vertical-align: top;line-height:78px;}
+.announcement .ann-header .inner .helpcenter{line-height:22px;margin-top:6px;font-size:16px;cursor:pointer;}
+.announcement .ann-header .inner .helpcenter i{font-style:normal;width:48px;text-align:right;display:inline-block;}
+.announcement .ann-header .inner .helpcenter a{color:#000}
+.announcement .ann-header .inner .helpcenter .support{border-left:2px solid #000;display:inline-block;height:14px;margin:0 3px -3px;}
+
+/*内容详情*/
+.problem{width:1000px;margin:5px auto 5px;background:#fff;overflow: hidden;}
+.problem .left{width:240px;border-right:1px solid #ddd;box-sizing:border-box;padding-bottom:5000px;margin-bottom:-5000px;}
+.problem .left .fir-ul{padding:30px 0 0 0px;}
+.problem .left .fir-ul>li{margin:0 0 30px 60px;}
+.problem .left .fir-ul span{font-size:20px;margin-bottom:5px;display:inline-block;}
+.problem .left .fir-ul .sub-ul{margin-left:-60px;}
+.problem .left .fir-ul .sub-ul li a{text-indent: 60px;color:#616161;display:inline-block;width:100%;height:100%;box-sizing:border-box;font-size:16px;}
+.problem .left .fir-ul .sub-ul li{height:46px;line-height:46px;position:relative;}
+.problem .left .fir-ul .sub-ul li:hover a,.curr-menu{background-color:#F5F5F5!important;color:#1BACF6!important;}
+.problem .left .fir-ul .sub-ul li:hover .border-i,.border-cur{display:inline-block;border-left:6px solid #1BACF6;height:100%;left:0;top:0;position:absolute;}
+.problem .right{width:720px;padding:0 20px 5000px;margin-bottom:-5000px;box-sizing:border-box;}
+.problem .right .head{display:block;font-size:30px;margin:30px 0;}
+.problem .right .question-h{font-size:18px;}
+.problem .right .answer{padding-left:30px;margin:10px 0;line-height:24px;position:relative;}
+.problem .right .answer span{display:block;line-height:26px;}
+.problem .right .answer .req-list{padding-left:47px;}
+.problem .right .answer .login-step{padding-left:25px;}
+.problem .right .pos i{display:block;font-style:normal;text-align:center;font-weight:900;margin-top:10px;color:#2CB4FF;}
+.problem .right .answer embed{display:block;margin:0 auto;}
+
+/*尾部*/
+.announcement .help-center{max-width:1920px;background:#fff;}
+.announcement .tail p{text-align: center;color:#83949B;}
+.announcement .tail p span{margin-right:30px;}
+.announcement .tail p span i{font-style:normal;margin-left:10px;}
+.announcement .tail p span i a{color:#83949B;}
+
+
+
+
+
+
+
